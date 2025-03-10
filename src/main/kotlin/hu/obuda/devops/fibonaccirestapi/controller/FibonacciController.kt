@@ -1,6 +1,7 @@
 package hu.obuda.devops.fibonaccirestapi.controller
 
 import hu.obuda.devops.fibonaccirestapi.service.FibonacciService
+import org.springframework.http.HttpStatus
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
